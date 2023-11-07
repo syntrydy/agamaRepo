@@ -14,7 +14,9 @@
             "openid-connect"
         ],
         "noDirectLaunch": [],
-        "configs": {},
+        "configs": {
+            "com.gasmyr.fido": {}
+        },
         "name": "fido"
     }
 }
