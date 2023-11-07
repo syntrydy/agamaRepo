@@ -1,2 +1,8 @@
+// Fido login flow
 Flow com.gasmyr.fido
      Basepath ""
+     Timeout 5000 seconds
+     Configs configs
+Log "@info Start running the flow"
+it_dgcom = { success: true, data: { userId: "as9233Qz" } }
+Finish it_dgcom
