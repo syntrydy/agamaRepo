@@ -1,1 +1,19 @@
-{}
+{
+    "fido": {
+        "projectName": "fido",
+        "description": "fido login",
+        "type": "community",
+        "author": "syntrydy",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/syntrydy/agamaRepo",
+        "githubUri": "https://github.com/syntrydy/agamaRepo",
+        "license": "apache-2.0",
+        "lastUpdated": "1699390939074",
+        "tags": [
+            "jans",
+            "openid-connect"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
+    }
+}
