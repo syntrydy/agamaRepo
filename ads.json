@@ -31,7 +31,9 @@
             "community"
         ],
         "noDirectLaunch": [],
-        "configs": {},
+        "configs": {
+            "com.kudia.Fido": {}
+        },
         "name": "TestProject"
     }
 }
