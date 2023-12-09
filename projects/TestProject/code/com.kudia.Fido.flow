@@ -5,5 +5,5 @@ Flow com.kudia.Fido
      Configs config
      Inputs userName passWord
 Log "@info Starting flow"
-it_khwhv = { success: true, data: { userId: "as9233Qz" } }
-Finish it_khwhv
+it_xaajg = { success: true, data: { userId: "as9233Qz" } }
+Finish it_xaajg
