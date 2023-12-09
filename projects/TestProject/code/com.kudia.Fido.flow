@@ -1,2 +1,9 @@
+// description
 Flow com.kudia.Fido
      Basepath ""
+     Timeout 500 seconds
+     Configs config
+     Inputs userName passWord
+Log "@info Starting flow"
+it_khwhv = { success: true, data: { userId: "as9233Qz" } }
+Finish it_khwhv
