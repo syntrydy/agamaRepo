@@ -24,7 +24,7 @@
 					"id": "Agama-log-Node-968dd2db-3fb4-4fce-9381-7fd23dcdb676",
 					"parentId": "Agama-start-Flow-e7016477-8b40-4083-bf41-d35e0584b81f",
 					"type": "Agama-log-Node",
-					"displayName": "",
+					"displayName": "MFA",
 					"hasComment": true,
 					"comment": "",
 					"whenCondition": "WhenFalse",
@@ -33,9 +33,10 @@
 					"logMessage": "\"runinng mfa\"",
 					"logLevel": "warn",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 230,
