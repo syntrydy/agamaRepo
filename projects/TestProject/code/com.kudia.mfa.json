@@ -1,35 +1,112 @@
-[
-  {
-    "id": "Agama-start-Flow-e7016477-8b40-4083-bf41-d35e0584b81f",
-    "type": "start",
-    "sourcePosition": "right",
-    "data": {
-      "id": "Agama-start-Flow-e7016477-8b40-4083-bf41-d35e0584b81f",
-      "type": "Agama-start-Flow",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "inRepeatBlock": false,
-      "agamaData": {
-        "id": "Agama-start-Flow-e7016477-8b40-4083-bf41-d35e0584b81f",
-        "type": "Agama-start-Flow",
-        "displayName": "MFA",
-        "hasComment": true,
-        "comment": "",
-        "isTopLevelFlow": true,
-        "basepath": "",
-        "configParams": "{}",
-        "nodeIcon": "material-symbols:line-start-square",
-        "timeout": "",
-        "inputs": "",
-        "configs": "",
-        "flowname": "com.kudia.mfa"
-      }
-    },
-    "position": {
-      "x": 30,
-      "y": 30
-    }
-  }
-]
+{
+	"nodes": [
+		{
+			"width": 170,
+			"height": 124,
+			"id": "Agama-log-Node-968dd2db-3fb4-4fce-9381-7fd23dcdb676",
+			"position": {
+				"x": 230,
+				"y": 30
+			},
+			"type": "log",
+			"data": {
+				"id": "Agama-log-Node-968dd2db-3fb4-4fce-9381-7fd23dcdb676",
+				"type": "Agama-log-Node",
+				"parentId": "Agama-start-Flow-e7016477-8b40-4083-bf41-d35e0584b81f",
+				"whenCondition": "WhenFalse",
+				"inRepeatBlock": false,
+				"inIterateBlock": false,
+				"position": {
+					"x": 230,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "Agama-log-Node-968dd2db-3fb4-4fce-9381-7fd23dcdb676",
+					"parentId": "Agama-start-Flow-e7016477-8b40-4083-bf41-d35e0584b81f",
+					"type": "Agama-log-Node",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "",
+					"whenCondition": "WhenFalse",
+					"inRepeatBlock": false,
+					"inIterateBlock": false,
+					"logMessage": "\"runinng mfa\"",
+					"logLevel": "warn",
+					"nodeIcon": "octicon:log-16"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 230,
+				"y": 30
+			}
+		},
+		{
+			"width": 170,
+			"height": 124,
+			"id": "Agama-start-Flow-e7016477-8b40-4083-bf41-d35e0584b81f",
+			"type": "start",
+			"sourcePosition": "right",
+			"data": {
+				"id": "Agama-start-Flow-e7016477-8b40-4083-bf41-d35e0584b81f",
+				"type": "Agama-start-Flow",
+				"position": {
+					"x": 30,
+					"y": 30
+				},
+				"inRepeatBlock": false,
+				"agamaData": {
+					"id": "Agama-start-Flow-e7016477-8b40-4083-bf41-d35e0584b81f",
+					"type": "Agama-start-Flow",
+					"displayName": "MFA",
+					"hasComment": true,
+					"comment": "",
+					"isTopLevelFlow": true,
+					"basepath": "",
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:line-start-square",
+					"timeout": "",
+					"inputs": "",
+					"configs": "",
+					"flowname": "com.kudia.mfa"
+				},
+				"skake": false
+			},
+			"position": {
+				"x": 30,
+				"y": 30
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 30,
+				"y": 30
+			}
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-e7016477-8b40-4083-bf41-d35e0584b81f-Agama-log-Node-968dd2db-3fb4-4fce-9381-7fd23dcdb676-606b510e-6130-4bac-8271-567391b6bc48",
+			"type": "default",
+			"source": "Agama-start-Flow-e7016477-8b40-4083-bf41-d35e0584b81f",
+			"target": "Agama-log-Node-968dd2db-3fb4-4fce-9381-7fd23dcdb676",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#bee0d2",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			}
+		}
+	],
+	"viewport": {
+		"x": 10,
+		"y": 270,
+		"zoom": 0.75
+	}
+}
