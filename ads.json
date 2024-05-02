@@ -32,7 +32,8 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "com.kudia.Fido": {}
+            "com.kudia.Fido": {},
+            "com.kudia.mfa": {}
         },
         "name": "TestProject"
     }
