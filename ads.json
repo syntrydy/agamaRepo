@@ -30,7 +30,9 @@
             "openid-connect",
             "community"
         ],
-        "noDirectLaunch": [],
+        "noDirectLaunch": [
+            "com.kudia.mfa"
+        ],
         "configs": {
             "com.kudia.Fido": {},
             "com.kudia.mfa": {},
