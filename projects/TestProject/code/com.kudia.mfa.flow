@@ -1,3 +1,3 @@
 Flow com.kudia.mfa
      Basepath ""
-Log "@warn runinng mfa"
+Log "@info runinng mfa2"
